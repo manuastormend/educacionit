@@ -1,0 +1,151 @@
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #2D9433;
+}
+
+.Header {
+  width: 100%;
+  height: 100px;
+  background-color: #000000;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .Header {
+    height: 80px;
+  }
+}
+.Header-title {
+  position: relative;
+  font-weight: bold;
+  font-size: 52px;
+  margin: 0px;
+  padding: 0px;
+  color: #2D9433;
+}
+@media (max-width: 767px) {
+  .Header-title {
+    font-size: 34px;
+    padding-top: 0.7rem;
+  }
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Home .Home-agregar {
+  text-align: center;
+  padding: 1rem 2rem;
+  margin: 2rem 0px;
+  border: none;
+  cursor: pointer;
+  background-color: #2E4D30;
+  color: white;
+  border-radius: 50px;
+}
+.Home .Home-agregar:hover {
+  background-color: #415042;
+}
+
+.BodyNota {
+  display: block;
+  width: 30%;
+  background-color: #031A04;
+  margin: 0.4rem;
+  height: 120px;
+  color: white;
+  padding: 1rem;
+  overflow: hidden;
+}
+@media (min-width: 1200px) {
+  .BodyNota {
+    width: 40%;
+  }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  .BodyNota {
+    width: 50%;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .BodyNota {
+    width: 70%;
+  }
+}
+@media (max-width: 767px) {
+  .BodyNota {
+    width: 90%;
+  }
+}
+.BodyNota-top {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.BodyNota-top .BodyNota-fecha {
+  text-align: start;
+  margin-right: 2rem;
+}
+.BodyNota span {
+  width: 100%;
+  height: 70px;
+  cursor: pointer;
+}
+.BodyNota span .BodyNota-bottom {
+  height: 70px;
+  overflow-wrap: break-word;
+}
+
+.Nota-container {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.Nota-container .Nota {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #031A04;
+  width: 30%;
+  margin-top: 2rem;
+}
+.Nota-container .Nota textarea {
+  height: 100px;
+  width: 90%;
+  margin-bottom: 0.7rem;
+}
+.Nota-container .Nota button {
+  margin-bottom: 0.7rem;
+  border: none;
+  border-radius: 30px;
+  padding: 0.3rem 0.7rem;
+}
+.Nota-container .Nota button:hover {
+  background-color: #2D9433;
+  color: white;
+  cursor: pointer;
+}
+
+.Botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Botones button {
+  text-align: center;
+  padding: 1rem 2rem;
+  margin: 2rem 0px;
+  border: none;
+  cursor: pointer;
+  background-color: #2E4D30;
+  color: white;
+  border-radius: 50px;
+}
+.Botones button:hover {
+  background-color: #415042;
+}/*# sourceMappingURL=main.css.map */
