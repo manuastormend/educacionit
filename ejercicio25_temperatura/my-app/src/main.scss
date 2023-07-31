@@ -1,0 +1,48 @@
+:root{
+    --main-color: #2d4641;
+    --main-color2: #4bdfa2;
+}
+
+.App{
+    background-color: #4bdfa2;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin: auto;
+    &-input{
+        padding: 10px;
+    }
+
+
+
+    .ClimaCiudad{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        &-img{
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+    }
+}
+
+.App-button{
+    margin-top: 10px;
+    background-color: #2d4641;
+    color: azure;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0.3rem;
+    cursor: pointer;
+
+    &:hover{
+        background-color: adjust-color($color: #2d4641, $hue: 0, $saturation: 0%, $lightness: 3%, $alpha: 1.0);
+    }
+}
