@@ -1,0 +1,39 @@
+[
+  {
+    "id": 0,
+    "titulo": "La Isla Siniestra",
+    "descripcioncorta": "La Isla Siniestra es un inquietante thriller en un hospital psiquiátrico.",
+    "descripcion": "Verano de 1954. Los agentes judiciales Teddy Daniels y Chuck Aule son enviados a una remota isla del puerto de Boston para investigar la desaparición de una peligrosa asesina recluida en el hospital psiquiátrico Ashecliffe, un centro penitenciario para criminales perturbados dirigido por el siniestro doctor John Cawley. Pronto descubrirán que el centro guarda muchos secretos y que la isla esconde algo más peligroso que los pacientes.",
+    "genero": "Misterio",
+    "duracion": "90 minutos",
+    "imagen": "laislasiniestra.jpg"
+  },
+  {
+    "id": 1,
+    "titulo": "Mujercitas",
+    "descripcioncorta": "Mujercitas es un emotivo relato sobre las vidas y sueños de cuatro hermanas en la Nueva Inglaterra del siglo XIX.",
+    "descripcion": "Amy, Jo, Beth y Meg son cuatro hermanas que atraviesan Massachussets con su madre durante la Guerra Civil, unas vacaciones que realizan sin su padre evangelista itinerante. Durante estas vacaciones las adolescentes descubren el amor y la importancia de los lazos familiares.",
+    "genero": "Romance",
+    "duracion": "90 minutos",
+    "imagen": "mujercitas.jpeg"
+  },
+
+  {
+    "id": 2,
+    "titulo": "El viaje de Chihiro",
+    "descripcioncorta": "El Viaje de Chihiro es un viaje mágico de autodescubrimiento en un mundo de fantasía.",
+    "descripcion": "La película narra la historia de una joven que queda atrapada en un mundo mágico y ancestral. Uno en el que tendrá que sobrevivir trabajando en un balneario de dioses. El viaje de Chihiro hunde, narrativa y conceptualmente, sus raíces en el folclore japonés ante la perspectiva de un nuevo siglo",
+    "genero": "Animación",
+    "duracion": "85 minutos",
+    "imagen": "elviaje.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "El ilusionista",
+    "descripcioncorta": "El Ilusionista es un misterioso drama de ilusiones y amor en la Viena del siglo XIX.",
+    "descripcion": "Viena, 1900. El ilusionaista Eisenheim llega a oídos del príncipe Leopold , un hombre escéptico que acude al espectáculo acompañado de su prometida. Sospechando un fraude por parte de Eisenheim, el príncipe encarga a un inspector que lo vigile.",
+    "genero": "Romance/Misterio",
+    "duracion": "85 minutos",
+    "imagen": "elilusionista.jpeg"
+  }
+]
