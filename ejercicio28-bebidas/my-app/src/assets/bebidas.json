@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "nombre": "Café",
+    "precio": 3,
+    "imagen": "/img/cafe.png",
+    "bg": "/img/cafedetail.jpg"
+  },
+  {
+    "id": 1,
+    "nombre": "Té",
+    "precio": 2,
+    "imagen": "/img/te.png",
+    "bg": "/img/tedetail.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Refresco",
+    "precio": 3,
+    "imagen": "/img/refresco.png",
+    "bg": "/img/refrescodetail.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Jugo",
+    "precio": 2,
+    "imagen": "/img/jugo.png",
+    "bg": "/img/jugodetail.jpg"
+  }
+]
